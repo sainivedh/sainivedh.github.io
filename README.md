@@ -95,7 +95,6 @@ For example: URL is `http://127.0.0.1:4000/python/`. In `_data/blog.yml`, we def
     <div class="row">
         <ul id="pag-itemContainer" style="list-style:none;">
             {% assign counter = 0 %}
-            {% for post in site.categories[category] %}
             {% assign counter = counter | plus: 1 %}
             <li>
 ```
@@ -197,4 +196,3 @@ If this project let you enjoy your blog time, you can give me a cup of coffee :)
 
 # Ad
 [Jalpc-A](https://github.com/Jack614/Jalpc-A): another Jekyll theme written by [AngularJS](https://angularjs.org/).
-
